@@ -21,7 +21,7 @@ import android.widget.Toast;
 
 
 public class Harman1 extends Activity implements OnClickListener {
-    /** Called when the activity is first created. */
+    /** Called sample when the activity is first created. */
 	IRemoteService mService;
 	private static final String DATABASE_NAME = "harman.db";
 	
