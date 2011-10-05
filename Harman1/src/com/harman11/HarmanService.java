@@ -9,6 +9,7 @@ public class HarmanService extends Service{
 
 	private final IRemoteService.Stub mBinder = new IRemoteService.Stub() {
 	    public int add(int a,int b){
+	    //Added to test git
 	        return a+b;
 	    }
 	   
