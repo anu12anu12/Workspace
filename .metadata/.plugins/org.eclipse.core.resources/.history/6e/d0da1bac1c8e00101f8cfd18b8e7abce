@@ -1,0 +1,41 @@
+
+public class Synchronizing 
+{
+	public static void main(String []arg)
+	{
+		ThreadExample1 lThreadExample1 = new ThreadExample1();
+		ThreadExample2 lThreadExample2 = new ThreadExample2();
+		
+	}
+}
+
+
+
+class ThreadExample2 extends Thread
+{
+	ThreadExample2()
+	{
+		start();
+	}
+	
+	 public void run()
+	{
+		System.out.println("Thread2 started");
+	}
+}
+
+
+class ThreadExample1 extends Thread
+{
+	ThreadExample1()
+	{
+		start();
+	}
+	
+	synchronized public void run()
+	{
+		System.out.println("Thread1 started before yield");
+		//Thread.yield();
+		System.out.println("Thread1 startedafter yield");
+	}
+}

@@ -1,0 +1,14 @@
+package food.Fruit1;
+
+import food.Fruit;
+
+
+public class Apple extends Fruit {
+
+	@Override
+	public void myMeethod() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
