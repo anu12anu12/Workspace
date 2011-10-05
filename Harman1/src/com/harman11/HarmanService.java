@@ -18,6 +18,7 @@ public class HarmanService extends Service{
 	@Override
 	public IBinder onBind(Intent arg0) {
 		// TODO Auto-generated method stub
+	    //Added to test git
 		return mBinder;
 	}
 	

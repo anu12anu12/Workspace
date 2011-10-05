@@ -20,7 +20,7 @@ import android.widget.ExpandableListView.ExpandableListContextMenuInfo;
 
 
 /**
- * Demonstrates expandable lists using a custom {@link ExpandableListAdapter}
+ * Demonstrates sample expandable lists using a custom {@link ExpandableListAdapter}
  * from {@link BaseExpandableListAdapter}.
  */
 public class ExpandleList2 extends ExpandableListActivity {
